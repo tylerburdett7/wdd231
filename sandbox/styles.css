@@ -1,0 +1,14 @@
+.hidden {
+    display: none;
+}
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#dropdownbtn {
+    width: 300px;
+}
+.dropdownList {
+    list-style-type: none;
+}
