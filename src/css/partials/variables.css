@@ -1,0 +1,27 @@
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 60px;
+  }
+  
+  main {
+    margin: 30px;
+  }
+  .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .info img {
+    max-width: 350px;
+  }
+  a.media-card {
+    max-width: 350px;
+  }
+  a.media-card, h3, a {
+    text-decoration: none;
+    color: black;
+  }
+  footer {
+    background-image: url('../images/topo_pattern.png');
+    padding: 15px;
+  }
