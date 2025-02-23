@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Screen Cover</title>
+  <style>
+    .cover-element {
+      position: fixed; /* Fixed position relative to the viewport */
+      top: 0;
+      left: 0;
+      width: 100%; /* Full width of the viewport */
+      height: 100%; /* Full height of the viewport */
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+      display: none; /* Start hidden */
+    }
+
+    .cover-element.show {
+      display: block; /* Show when class is added */
+    }
+  </style>
+</head>
+<body>
+  <button onclick="document.querySelector('.cover-element').classList.toggle('show')">
+    Toggle Full Screen Cover
+  </button>
+
+  <div class="cover-element">
+    This element covers the entire browser window!
+  </div>
+</body>
+</html>

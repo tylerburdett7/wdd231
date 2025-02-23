@@ -12,3 +12,7 @@
 .dropdownList {
     list-style-type: none;
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+}

@@ -9,18 +9,6 @@ function parkInfoTemplate(info) {
     </p>`;
 }
 
-function footerTemplate(data) {
-  return `
-    <div class="footer__address">
-      <h4>Mailing Address:</h4>
-      <p>${data.mailingAddress || "Not available"}</p>
-    </div>
-    <div class="footer__phone">
-      <h4>Voice:</h4>
-      <p>${data.phone || "Not available"}</p>
-    </div>
-  `;
-}
 
 function mediaCardTemplate(info) {
   return `
